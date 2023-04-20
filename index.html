@@ -12,13 +12,17 @@
       crossorigin="anonymous"
     />
     <!--CSS personalizado-->
-    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/styless.css" />
   </head>
   <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark">
+
+
+
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+            <img class = "logo"src="./assets/img/shuriken.png" alt="shuriken logo"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,7 +40,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -46,11 +50,11 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Proyectos
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Sobre mi</a></li>
+                <li><a class="dropdown-item" href="#"> Calculadora</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
@@ -66,6 +70,68 @@
       </div>
     </nav>
 
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col"></div>
+            <h1>Guadalupe Galvan</h1>
+        </div>
+        <div class="row">
+            <div class="col-6">
+            <h3>Divulgacion cientifica </h3>
+        </div>
+            <div class="col-6">
+                <h3>Desarrollo web</h3>
+            </div>
+        </div>
+    </div>
+    
+    <!--Carrosel-->
+    <div id="carouselExample" class="carousel slide">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/cascada.jpg" class="d-block w-100 rounded" alt="cascadas">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/arco.jpg" class="d-block w-100 rounded" alt="arcoiris en monte">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/hongu.jpg" class="d-block w-100 rounded" alt="hongos macroscopicos">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/nat.jpg" class="d-block w-100 rounded" alt="paisaje nordico">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Descripcion carrusel-->
+    
+    <div class="col-2 col-lg-">
+        <div class="row">
+            <p>Me inicie como desarrolladora con tecnicas ninja </p>
+        </div>
+
+    </div>
+
+      <!--botton -->
+      <div>
+        <div class="row">
+        <div>
+            <div class="col">
+            <button type="button" class="btn btn-dark"> <a class="nav-link" href="https://www.linkedin.com/feed/" target="_blank"> Contáctame</a></button>
+
+        </div>
+        </div>
+        </div>
+      </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
