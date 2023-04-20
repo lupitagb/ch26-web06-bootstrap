@@ -1,0 +1,24 @@
+
+.bg-alt {
+    background: #abb1b8;
+}
+.practica {
+    padding: 10px;
+    color: coral;
+    padding: 15px;
+    background: #dbdfe5;
+    margin: 10px;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background: rgba(255, 0, 0, 0.5);     /* transparent red */
+    }
+}
+
+/* Anything Smaller than Large  */
+@media (max-width: 1199px) {
+    body {
+        background: rgba(255, 192, 203, 0.5); /* transparent pink */
+    }
+}
